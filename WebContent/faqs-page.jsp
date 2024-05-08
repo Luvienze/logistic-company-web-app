@@ -28,7 +28,7 @@
         	}
      	}
     
-     	.button a{
+     	.buttons a{
           text-decoration: none;
         }
 

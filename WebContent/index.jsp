@@ -44,9 +44,9 @@
                      Services
                     </button>
                   <ul class="dropdown-menu">
-                    <li><a href="./services/cargo.html"><button class="dropdown-item" type="button">Search Cargo</button></a></li>
-                    <li><a href="./services/branches.html"><button class="dropdown-item" type="button">Search Branches</button></a></li>
-                    <li><a href="./services/sendcargo.html"><button class="dropdown-item" type="button">Send Cargo</button></a></li>
+                    <li><a href="./services/cargo-page.jsp"><button class="dropdown-item" type="button">Search Cargo</button></a></li>
+                    <li><a href="./services/branch-page.jsp"><button class="dropdown-item" type="button">Search Branches</button></a></li>
+                    <li><a href="./services/send-cargo-page.jsp"><button class="dropdown-item" type="button">Send Cargo</button></a></li>
 
                   </ul>
                 </div>

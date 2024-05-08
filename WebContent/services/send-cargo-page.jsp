@@ -46,7 +46,7 @@
                   <ul class="dropdown-menu">
                     <li><a href="./cargo-page.jsp"><button class="dropdown-item" type="button">Search Cargo</button></a></li>
                     <li><a href="./branch-page.jsğ"><button class="dropdown-item" type="button">Search Branches</button></a></li>
-                    <li><a href="./sendcargo-page.jsp"><button class="dropdown-item" type="button">Send Cargo</button></a></li>
+                    <li><a href="./send-cargo-page.jsp"><button class="dropdown-item" type="button">Send Cargo</button></a></li>
                   </ul>
                 </div>
               </li>
