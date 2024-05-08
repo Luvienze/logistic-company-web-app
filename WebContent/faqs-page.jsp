@@ -19,22 +19,27 @@
         @keyframes gradient-animation {
             0% {
          background-position: 0% 50%;
-         }
+        	 }
              50% {
          background-position: 100% 50%;
-         }
+        	 }
             100% {
         background-position: 0% 50%;
+        	}
+     	}
+    
+     	.button a{
+          text-decoration: none;
         }
-     }
-     .buttons a{
-      text-decoration: none;
-     }
 
-     .header a{
+        .header a{
             text-decoration: none;
         }
-
+        
+        .dropdown-menu a{
+      		text-decoration: none;
+    	 }
+		
     </style>
 </head>
 <body>
@@ -48,16 +53,16 @@
             </div>
       
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="index.jsp" class="nav-link px-2 ">Home</a></li>
-              <li>
+                <li><a href="index.jsp" class="nav-link px-2">Home</a></li>
+             <li>
                 <div class="dropdown">
                   <button class="btn dropdown-toggle nav-link px-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                      Services
                     </button>
                   <ul class="dropdown-menu">
-                    <li><a href="./services/cargo.html"><button class="dropdown-item" type="button">Search Cargo</button></a></li>
-                    <li><a href="./services/branches.html"><button class="dropdown-item" type="button">Search Branches</button></a></li>
-                    <li><a href="./services/sendcargo.html"><button class="dropdown-item" type="button">Send Cargo</button></a></li>
+                    <li><a href="./services/cargo-page.jsp"><button class="dropdown-item" type="button">Search Cargo</button></a></li>
+                    <li><a href="./services/branch-page.jsp"><button class="dropdown-item" type="button">Search Branches</button></a></li>
+                    <li><a href="./services/send-cargo-page.jsp"><button class="dropdown-item" type="button">Send Cargo</button></a></li>
 
                   </ul>
                 </div>
