@@ -28,14 +28,19 @@
         100% {
        background-position: 0% 50%;
         }
-     }
+    	 }
+    
      .buttons a{
-      text-decoration: none;
-     }
+     	 text-decoration: none;
+     	}
 
      .header a{
             text-decoration: none;
         }
+        
+      .dropdown-menu a{
+      		text-decoration: none;
+    	 }
 
     </style>
 </head>
@@ -51,16 +56,16 @@
             </div>
       
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="index.jsp" class="nav-link px-2">Home</a></li>
-              <li>
+                <li><a href="index.jsp" class="nav-link px-2">Home</a></li>
+             <li>
                 <div class="dropdown">
                   <button class="btn dropdown-toggle nav-link px-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                      Services
                     </button>
                   <ul class="dropdown-menu">
-                    <li><a href="./services/cargo.html"><button class="dropdown-item" type="button">Search Cargo</button></a></li>
-                    <li><a href="./services/branches.html"><button class="dropdown-item" type="button">Search Branches</button></a></li>
-                    <li><a href="./services/sendcargo.html"><button class="dropdown-item" type="button">Send Cargo</button></a></li>
+                    <li><a href="./services/cargo-page.jsp"><button class="dropdown-item" type="button">Search Cargo</button></a></li>
+                    <li><a href="./services/branch-page.jsp"><button class="dropdown-item" type="button">Search Branches</button></a></li>
+                    <li><a href="./services/send-cargo-page.jsp"><button class="dropdown-item" type="button">Send Cargo</button></a></li>
 
                   </ul>
                 </div>
@@ -195,6 +200,7 @@
           </div>
 
     </section>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
 </body>
 </html>
