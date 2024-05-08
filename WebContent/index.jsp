@@ -36,7 +36,7 @@
             </div>
       
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="index.html" class="nav-link px-2 link-secondary">Home</a></li>
+              <li><a href="index.jsp" class="nav-link px-2 link-secondary">Home</a></li>
               
              <li>
                 <div class="dropdown">
@@ -52,14 +52,14 @@
                 </div>
               </li>
 
-              <li><a href="faqs.html" class="nav-link px-2">FAQs</a></li>
-              <li><a href="about.html" class="nav-link px-2">About</a></li>
+              <li><a href="faqs-page.jsp" class="nav-link px-2">FAQs</a></li>
+              <li><a href="about-page.jsp" class="nav-link px-2">About</a></li>
             </ul>
       
             <div class="col-md-3 text-end">
               <div class="buttons">
-                  <button type="button" class="btn btn-outline-primary me-2"><a href="login.html">Login</a></button>
-                  <button type="button" class="btn btn-primary"><a href="signup.html" style="color: white;">Sign-up</a></button>
+                  <button type="button" class="btn btn-outline-primary me-2"><a href="login-page.jsp">Login</a></button>
+                  <button type="button" class="btn btn-primary"><a href="signup-page.jsp" style="color: white;">Sign-up</a></button>
               </div>
           </div>
           </header>
@@ -216,7 +216,7 @@
                   <li>Standard Delivery within 5 Business Days</li>
                   <li>Online Support during Business Hours</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-outline-primary"><a href="signup.html" style="text-decoration: none;">Sign up for free</a></button>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary"><a href="sigunup-page.jsp" style="text-decoration: none;">Sign up for free</a></button>
               </div>
             </div>
           </div>
@@ -233,7 +233,7 @@
                   <li>Expedited Delivery within 2-3 Business Days</li>
                   <li>Dedicated Customer Support</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-primary"><a href="signup.html" style="text-decoration: none; color: white;">Get Started</a></button>
+                <button type="button" class="w-100 btn btn-lg btn-primary"><a href="signup-page.jsp" style="text-decoration: none; color: white;">Get Started</a></button>
               </div>
             </div>
           </div>
@@ -252,7 +252,7 @@
                   <li>Access to Warehousing and Inventory Management</li>
                   <li>Priority Real-Time Tracking for Unlimited Shipments</li>
                 </ul>
-                <button type="button" class="w-100 btn btn-lg btn-primary"><a href="enterprisesignup.html" style="text-decoration: none; color: white;">Contact Us</a></button>
+                <button type="button" class="w-100 btn btn-lg btn-primary"><a href="enterprise-login.jsp" style="text-decoration: none; color: white;">Contact Us</a></button>
               </div>
             </div>
           </div>

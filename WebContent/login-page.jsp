@@ -42,7 +42,7 @@
             </div>
       
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="index.html" class="nav-link px-2">Home</a></li>
+              <li><a href="index.jsp" class="nav-link px-2">Home</a></li>
               <li>
                 <div class="dropdown">
                   <button class="btn dropdown-toggle nav-link px-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -56,14 +56,14 @@
                   </ul>
                 </div>
               </li>
-              <li><a href="faqs.html" class="nav-link px-2">FAQs</a></li>
-              <li><a href="about.html" class="nav-link px-2">About</a></li>
+              <li><a href="faqs-page.jsp" class="nav-link px-2">FAQs</a></li>
+              <li><a href="about-page.jsp" class="nav-link px-2">About</a></li>
             </ul>
       
             <div class="col-md-3 text-end">
                 <div class="buttons">
-                    <button type="button" class="btn btn-outline-primary me-2"><a href="login.html">Login</a></button>
-                    <button type="button" class="btn btn-primary"><a href="signup.html" style="color: white;">Sign-up</a></button>
+                    <button type="button" class="btn btn-outline-primary me-2"><a href="login-page.jsp">Login</a></button>
+                    <button type="button" class="btn btn-primary"><a href="signup-page.jsp" style="color: white;">Sign-up</a></button>
                 </div>
             </div>
           </header>
